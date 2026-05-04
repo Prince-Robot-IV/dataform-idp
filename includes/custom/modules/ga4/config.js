@@ -71,7 +71,27 @@ const config = {
   //    { name: "event_value", type: "decimal" },
   //    { name: "event_value", type: "string", renameTo: "event_value_string" }
   // ],
-  CUSTOM_EVENT_PARAMS_ARRAY: [],
+  CUSTOM_EVENT_PARAMS_ARRAY: [
+  	{ name: "modal_name",           type: "string" },
+  	{ name: "faq_question",         type: "string" },
+  	{ name: "video_id",             type: "string" },
+  	{ name: "property_id",          type: "string" },
+  	{ name: "property_name",        type: "string" },
+  	{ name: "property_price",       type: "decimal" },
+  	{ name: "property_location_id", type: "string" },
+  	{ name: "property_category",    type: "string" },
+  ],
+  CLICK_IDS_ARRAY: [
+  	{ name: "gclid",   source: "google",   medium: "cpc",     campaign: "(not set)",          sources: ["url", "collected_traffic_source"] },
+  	{ name: "dclid",   source: "google",   medium: "cpc",     campaign: "(not set)",          sources: ["url", "collected_traffic_source"] },
+  	{ name: "srsltid", source: "google",   medium: "organic", campaign: "Shopping Free Listings", sources: ["url", "collected_traffic_source"] },
+  	{ name: "gbraid",  source: "google",   medium: "cpc",     campaign: "(not set)",          sources: ["url"] },
+  	{ name: "wbraid",  source: "google",   medium: "cpc",     campaign: "(not set)",          sources: ["url"] },
+  	{ name: "gclsrc",  source: "google",   medium: "cpc",     campaign: "(not set)",          sources: ["url"] },
+  	{ name: "msclkid", source: "bing",     medium: "cpc",     campaign: "(not set)",          sources: ["url"] },
+  	{ name: "fbclid",  source: "facebook", medium: "cpc",     campaign: "(not set)",          sources: ["url"] },
+  	{ name: "sznclid", source: "seznam",   medium: "cpc",     campaign: "(not set)",          sources: ["url"] },
+   ],
 
   // user properties
   // example:
