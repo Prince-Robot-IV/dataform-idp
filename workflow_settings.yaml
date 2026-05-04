@@ -1,0 +1,19 @@
+dataformCoreVersion: 3.0.43
+defaultAssertionDataset: idp_assertion_511592964
+defaultDataset: idp_outputs_511592964
+defaultLocation: EU
+defaultProject: idp-data-491207
+vars:
+  GA4_DATASET: analytics_511592964
+  GA4_DATASET_LOCATION: EU
+  INSTALLATION_TIME: '2026-05-04 19:40:27'
+  LABEL_EXECUTION_OPERATION: daily_workflow
+  LABEL_GENERIC_BRAND: idp
+  LABEL_GENERIC_LICENSE_TYPE: community
+  LABEL_GENERIC_PACKAGE_VERSION: 1-19-2
+  LABEL_GENERIC_TOOL: ga4dataform
+  LOCAL_TIMEZONE: Europe/Prague
+  OUTPUTS_DATASET: idp_outputs_511592964
+  QUALITY_DATASET: idp_quality_511592964
+  TRANSFORMATIONS_DATASET: idp_transformations_511592964
+  REPORTING_DATASET: idp_reporting_511592964
